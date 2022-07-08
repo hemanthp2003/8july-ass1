@@ -1,10 +1,22 @@
 s=input()
+
 o=[]
-l=[]
+
 for i in s:
+
     if i not in o:
+
         o.append(i)
-    else:
-        l.append(i)
-          if i.isdigit():
-                 print(i)
+
+        if i.isdigit():
+
+            print(i)
+
+
+
+
+
+
+
+
+
